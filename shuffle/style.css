@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     color: #fff;
     background-image: url('https://www.example.com/starry-night.jpg'); /* Starry night image */
@@ -62,11 +63,11 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
    .footer {
-      text-align: center;
       padding: 10px 0;
       background-color: #6c757d;
       color: #fff;
       font-size: 1rem;
+      position: relative;
     }
   
   .title {
