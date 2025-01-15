@@ -13,7 +13,38 @@ body {
     background-size: cover;
     background-position: center;
   }
-  
+  header {
+      background-color: #001aff;
+      padding: 10px 20px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .watch-btn {
+      background-color: #ff4500;
+      color: #ffffff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .watch-btn:hover {
+      background-color: #e03e00;
+    }
   .star {
     position: absolute;
     border-radius: 50%;
