@@ -107,7 +107,13 @@ body {
     height: 70px;
     font-size: 20px;
   }
-  
+    footer {
+      width: 100%;
+      padding: 10px 0;
+      background-color: #6c757d;
+      color: #fff;
+      text-align: center;
+      font-size: 1rem;
   .result {
     margin-top: 20px;
     font-size: 1.5rem;
